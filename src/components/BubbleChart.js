@@ -118,13 +118,6 @@ const Yaxis = styled.div`
 `
 
 const ChartEntity = styled.div`
-    /* left: calc(44% - (85px - 85px)*3);  */
-    /* left:${props => `calc(46.2% - (85px - ${props.yaxsis}px )*3)`}; */
-    /* every 130 is a five */
-    /* base 85 */
-    /* top: ${props => `calc(45% - 30px - (${props.xaxsis}px - 85px)*5)`}; */
-/* 350 top un 0 i  115px */
-/* 250 left in 0 i ,  125*/
 
     top: ${props => `calc(${props.zeroY}px + ${props.yaxsis}px)`};
     left: ${props => `calc(${props.zeroX}px + ${props.xasis}px)`};
